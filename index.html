@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Page Creation with Specific Elements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+            <h1>My HNG Frontend Stage One Task</h1>
+            <p data-testid="slackUserName">Juweria Abdullahi.</p>
+        </div>
+        <div class="image">
+            <img src="Juweria Abdullahi.jpeg" alt="Juweria Abdullahi" data-testid="slackDisplayImage">
+        </div>
+        <div class="day">
+            <p data-testid="currentDayOfTheWeek"></p>
+        </div>
+        <div class="time">
+            <p data-testid="currentUTCTime">The current GMT+3 time is </p> 
+            <div class="clock">
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>
+            </div>
+        </div>
+        <div class="track">
+            <p data-testid="myTrack">Frontend</span>.</p>
+        </div>
+        <a target="_blank" href="https://github.com/Suldana/HNG-Internship-Stage-One" data-testid=“githubURL”>GitHub repository </a>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
